@@ -19,3 +19,15 @@ so their lifecycle logs appear only after that.
 
 ## Logcat screenshots
 *(Screenshots saved in the `screenshots/` folder)*
+
+## Lab 7: Navigation Practical 3
+- MainActivity hosts a NavHost, App Bar, options menu (⋮) and navigation drawer (☰)
+- Safe Args passes a Tenant from AddTenantFragment to ViewTenantsFragment
+- popUpTo fixes the back stack; slide animations on Dashboard actions
+- CALL TENANT (implicit Intent) is on View Tenants
+- Drawer header shows the logged-in email (from LoginActivity extra)
+- Try it yourself: Fragment logs (task 1), 10-digit phone check (task 2), AboutFragment as 4th destination (task 3), Logout in the drawer (task 4)
+
+![Dashboard with drawer](screenshots/lab7-drawer.png)
+![View Tenants](screenshots/lab7-view-tenants.png)
+![Fragment lifecycle logs](screenshots/lab7-fragment-logs.png)
